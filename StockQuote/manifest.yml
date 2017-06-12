@@ -1,0 +1,6 @@
+---
+applications:
+- name: XrivaStock
+  memory: 512M
+  host: XrivaStock
+  domain: mybluemix.net
