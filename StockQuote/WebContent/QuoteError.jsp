@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Stock Quotes from IIC Dallas</title>
-<link rel="stylesheet" type="text/css" href="/StockQuote/StockQuote.css">
+<title>Stock Quotes from DFW Cloud Solutions</title>
+<link rel="stylesheet" type="text/css" href="/StockQuote.css">
 </head>
 <body>
 <h1>Stock Quotes</h1>
@@ -13,6 +13,6 @@
 <p>
 There was an error in processing your request.<br></p>
 The back-end processing code is not meant to be called directly.<br>
-Please return to the <a href="/StockQuote/StockQuote.jsp">home</a> page and try again.
+Please return to the <a href="/StockQuote.jsp">home</a> page and try again.
 </body>
 </html>

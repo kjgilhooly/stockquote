@@ -34,7 +34,7 @@ public class QuoteProc extends HttpServlet
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException
 	{
-		response.sendRedirect("/quote/QuoteError.jsp");
+		response.sendRedirect("/QuoteError.jsp");
 	}
 
 	/**
@@ -50,6 +50,6 @@ public class QuoteProc extends HttpServlet
 		Hashtable<String, String> info = GetRemoteQuote.GetQuote(stock);
 		ServletContext sc = getServletContext();
 		sc.setAttribute("quote", info);
-		response.sendRedirect("/quote/StockQuote.jsp");
+		response.sendRedirect("/StockQuote.jsp");
 	}
 }

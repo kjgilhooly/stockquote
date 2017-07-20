@@ -6,17 +6,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Stock Quotes from IIC Dallas</title>
-<link rel="stylesheet" type="text/css" href="/quote/StockQuote.css">
+<title>Stock Quotes</title>
+<link rel="stylesheet" type="text/css" href="/StockQuote.css">
 </head>
 <body>
 	<h1>StockQuotes</h1>
-	<h2>Courtesy of the IBM Innovation Center Dallas</h2>
+	<h2>Courtesy of DFW Cloud Solutions</h2>
 	<h2>
 		Stock Quotes from <a href="http://finance.yahoo.com/">Yahoo!
 			Finance</a>
 	</h2>
-	<form action='/quote/GetQuote' method='post'>
+	<form action='/GetQuote' method='post'>
 		<table border="2">
 			<tr>
 				<td>Stock Symbol</td>
@@ -62,7 +62,7 @@
 		}
 	%>
 	<p>
-	The source code for this demo application is available in IBM DevOps Services (<a href="https://hub.jazz.net/project/xriva/StockQuotes/overview">here</a>). Please fork and use at your own risk.
+	The source code for this demo application is available on GitHub (<a href="https://github.com/kjgilhooly/stockquote">here</a>). Please fork and use at your own risk.
 	<p>
 </body>
 </html>
